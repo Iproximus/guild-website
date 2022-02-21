@@ -1,0 +1,115 @@
+/* h1 {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+} */
+
+.heading {
+    font-size: 40px;
+    /* text-align: left; */
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tabs {
+    font-size: 40px;
+    width: auto;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.feature {
+    width: 80%;
+    height: max-content;
+    background-color: antiquewhite;
+    border: black solid;
+    border-radius: 10px;
+    padding: 0 0 0 10px;
+}
+
+.custom-tab .tab-content {
+    min-height: 100px;
+    border: 1px solid #ffe600;
+    border-top: none;
+    color: brown;
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    height: 500px;
+    /* justify-content: center; */
+    justify-content: space-between;
+    flex-grow: 4;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.list-row {
+    width: 45%;
+    display: flex;
+    /* flex-grow: 3; */
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.img-row {
+    width: 50%;
+    display: flex;
+    align-self: flex-end;
+    min-height: 100px;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: space-around;
+}
+
+.head {
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+}
+
+.icon-list {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.icon {
+    flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+    float: right;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.description {
+    display: flex;
+    /* background-color: rgb(104, 37, 37); */
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+titlee {
+    /* background-color: #ffe600; */
+    font-weight: normal;
+}
+
+discrp {
+    font-style: normal;
+}
+
+.icon-list:hover .icon {
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.35);
+}
+
+.icon-list:hover titlee {
+    color: #0d60dd;
+    background-color: none;
+}

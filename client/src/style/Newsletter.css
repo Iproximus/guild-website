@@ -1,0 +1,108 @@
+.conatainrNewsletter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: #E9E9E9;
+     border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 0px #020303;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+/* .nl-align-center{
+    display: flex;
+    align-items: center;
+
+} */
+
+.nl-head-description {
+    width: 30%;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px #020303;
+    border-color: #65D8E7;
+    border-radius: 10px;
+
+}
+
+.nl-span-heading-descrip {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nl-span {
+    font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+
+
+.nlForm {
+    display: flex;
+    /* background-color: #fff; */
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nl-row1 {
+    /* background-color: pink; */
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.nl-row2 {
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 2%;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.nl-button {
+    padding: 10px;
+    display: flex;
+    width: 84%;
+    margin-top: 30px;
+    background-color: #f83b0b;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 4px;
+
+}
+
+.nl-button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.msg {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* background-color: pink; */
+    border-radius: 5px;
+    display: none;
+}
+
+.msgAppear {
+    display: block;
+}

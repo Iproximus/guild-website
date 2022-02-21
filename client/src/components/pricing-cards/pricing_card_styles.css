@@ -1,0 +1,153 @@
+.card-section {
+    display: flex;
+    columns: 3;
+    /* background-color: pink; */
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+
+.pricing-container {
+    display: flex;
+    width: 50%;
+}
+
+.card-1 {
+    border-radius: 0.5rem;
+    max-width: 24rem;
+    border-width: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: white 5px solid;
+    border-top-color: yellow;
+    padding-right: 1.25rem;
+}
+
+.card-2 {
+    border-radius: 0.5rem;
+    max-width: 24rem;
+    border-width: 4px;
+    border-width: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: white 5px solid;
+    border-top-color: red;
+    padding-right: 1.25rem;
+}
+
+.card-3 {
+    border-radius: 0.5rem;
+    max-width: 24rem;
+    border-width: 4px;
+    border-width: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: white 5px solid;
+    border-top-color: purple;
+    padding-right: 1.25rem;
+}
+
+.card-header {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card-heading {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.card-subHeading {
+    font-weight: bold;
+}
+
+.card-action-content {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.button-style {
+    background-color: black;
+    margin-top: 1.25rem
+        /* 20px */
+    ;
+    margin-left: 1rem
+        /* 16px */
+    ;
+    margin-bottom: 0.5rem
+        /* 8px */
+    ;
+    width: 13rem
+        /* 208px */
+    ;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.5rem
+        /* 8px */
+    ;
+    padding-bottom: 0.5rem
+        /* 8px */
+    ;
+    padding-left: 1rem
+        /* 16px */
+    ;
+    padding-right: 1rem
+        /* 16px */
+    ;
+    border-radius: 9999px;
+
+}
+
+.button-style:hover {
+    background-color: white;
+    color: black;
+}
+
+.action-card {
+    font-size: 0.75rem
+        /* 12px */
+    ;
+    line-height: 1rem
+        /* 16px */
+    ;
+    margin-left: 1.25rem
+        /* 20px */
+    ;
+    text-decoration-line: underline;
+}
+
+.card-content-style {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.card-content-heading {
+    font-size: 0.875rem
+        /* 14px */
+    ;
+    line-height: 1.25rem
+        /* 20px */
+    ;
+    font-weight: 700;
+    margin-top: 1.25rem
+        /* 20px */
+    ;
+}
+
+.card-content-list {
+    list-style-type: disc;
+    margin-left: 1rem
+        /* 16px */
+    ;
+    margin-top: 0.75rem
+        /* 12px */
+    ;
+}
+
+.card-content-list-text {
+    font-size: 0.75rem
+        /* 12px */
+    ;
+    line-height: 1rem
+        /* 16px */
+    ;
+}

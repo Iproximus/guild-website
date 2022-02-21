@@ -1,0 +1,43 @@
+[{
+    "id" : 1,
+    "tabName": "Plan & Track",
+    "tabHeading": "Agile tools for agile teams",
+    "tabDescription": "Stay On Track As You Plan, Develop, And Deliver Products.",
+    "list1": [{
+            "icon": "Icon1",
+            "iconHeading": "Jira Allgn",
+            "iconDescriptoion": "Stay On Track As You Plan"
+        },
+
+        {
+            "icon": "Icon2",
+            "iconHeading": "Jira Allgn 2",
+            "iconDescriptoion": "Stay On Track As You Plan 2"
+        },
+
+        {
+            "icon": "Icon3",
+            "iconHeading": "Jira Allgn 3",
+            "iconDescriptoion": "Stay On Track As You Plan 3"
+        }
+    ],
+    "image": "../src/images/Features/tab1.png"
+},{
+    "id":2,
+    "tabName": "Support & Fix",
+    "tabHeading": "Agile tools for agile teams 2",
+    "tabDescription": "Unite Development, Operations, & Support To Keep Downtime To A Minimum."
+},
+{
+    "id":3,
+    "tabName": "Code, Build & Copy",
+    "tabHeading": "Agile tools for agile teams 3",
+    "tabDescription": "Plan Software Projects, Collaborate On Code, Test And Deploy Products."
+},
+{
+    "id":4,
+    "tabName": "Collaborate",
+    "tabHeading": "Agile tools for agile teams 4",
+    "tabDescription": "Create, Organize, Discuss, And Complete Work, Together."
+}
+]

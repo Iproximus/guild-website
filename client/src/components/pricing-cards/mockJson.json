@@ -1,0 +1,47 @@
+[
+    {
+     "heading":"CONVERSATIONAL",
+     "subHeading":"Support",
+     "cardActionContent":"High-quality,personalized help at scale",
+     "buttonName":"Get a demo",
+     "cardActionLink":"How we Calculate Price",
+     "cardActionUrl":"www.google.com",
+     "cardContent":[
+         {
+             "listHeading":"Human Support",
+             "listContents":[
+                "Live chat for support","Team Boxes"
+             ]
+         },
+         {
+            "listHeading":"Self-serve Support",
+            "listContents":[
+               "Live chat for support","Hai"
+            ]
+        }
+     ]  
+    },
+    {
+        "heading":"CONVERSATIONAL",
+        "subHeading":"Support",
+        "cardActionContent":"High-quality,personalized help at scale",
+        "buttonName":"Get a demo",
+        "cardActionLink":"How we Calculate Price",
+        "cardActionUrl":"www.google.com",
+        "cardContent":[
+            {
+                "listHeading":"Human Support",
+                "listContents":[
+                   "Live chat for support","Team Boxes"
+                ]
+            },
+            {
+               "listHeading":"Self-serve Support",
+               "listContents":[
+                  "Live chat for support","Team Boxes"
+               ]
+           }
+        ]  
+       }
+   
+]

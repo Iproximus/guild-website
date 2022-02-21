@@ -1,0 +1,39 @@
+.video-container {
+    text-align: center;
+    margin-bottom: 60%;
+}
+
+.video-container.text-wrapper {
+    padding: 20px;
+    margin-top: 120px;
+    display: inline-block;
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+
+.video-container.text-wrapper h1 {
+    color: white;
+    display: inline-block;
+    background-color: tomato;
+    padding: 10px 20px;
+}
+
+.video-container.text-wrapper P {
+    color: #fff;
+    width: 400px;
+    padding: 10px-20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    text-align: left;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
